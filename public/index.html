@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My API</title>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" rel="stylesheet" type="text/css" />
+  <link href="main.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <section>
+    <div class="tbl-header">
+    <table cellpadding="0" cellspacing="0" border="0" id="tableHeaders">
+      <thead>
+        <tr>
+          <th class="id" data-sort="id" data-direction="asc">ID</th>
+          <th class="film" data-sort="film" data-direction="asc">Film</th>
+          <th class="stars" data-sort="stars" data-direction="asc">Stars</th>
+          <th class="rating" data-sort="rating" data-direction="asc">Rating</th>
+          <th class="votes" data-sort="votes" data-direction="asc">Votes</th>
+          <th class="create" data-sort="created_at" data-direction="asc">Created</th>
+          <th class="update" data-sort="updated_at" data-direction="asc">Last Updated</th>
+        </tr>
+      </thead>
+    </table>
+    </div>
+    <div class="tbl-content">
+      <table cellpadding="0" cellspacing="0" border="0" id="data">
+        <tbody>
+
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>
