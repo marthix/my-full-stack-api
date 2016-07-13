@@ -3,6 +3,7 @@ $orange:           #DEA158;
 $transparent:      rgba(69, 66, 57, 0.8);
 $transparent2:     rgba(69, 66, 57, 0.4);
 $white:            #e4dbbf;
+$black:            #454239;
 
 body {
   background: -webkit-linear-gradient(left, $red, $orange);
@@ -10,8 +11,18 @@ body {
   font-family: 'Helvetica', sans-serif;
 }
 
+h1, p {
+  text-align: center;
+  color: $black;
+  margin: 0;
+}
+
+h1 {
+  margin-top: 30px;
+}
+
 section {
-  margin: 50px;
+  margin: 25px 50px 50px;
 }
 
 table {
