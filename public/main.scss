@@ -1,12 +1,12 @@
-$green:            #25c481;
-$blue:             #25b7c4;
-$transparent:      rgba(255,255,255,0.3);
-$transparent2:     rgba(255,255,255,0.1);
-$white:            #FFFFFF;
+$red:              #C25B02;
+$orange:           #DEA158;
+$transparent:      rgba(69, 66, 57, 0.8);
+$transparent2:     rgba(69, 66, 57, 0.4);
+$white:            #e4dbbf;
 
 body {
-  background: -webkit-linear-gradient(left, $green, $blue);
-  background: linear-gradient(to right, $green, $blue);
+  background: -webkit-linear-gradient(left, $red, $orange);
+  background: linear-gradient(to right, $red, $orange);
   font-family: 'Helvetica', sans-serif;
 }
 
@@ -74,5 +74,6 @@ td {
   font-weight: 300;
   font-size: 12px;
   color: $white;
+  background-color: $transparent2;
   border-bottom: solid 1px $transparent2;
 }
