@@ -1,4 +1,4 @@
 module.exports = {
     client: 'pg',
-    connection: 'postgres://localhost/jason'
+    connection: 'postgres://localhost/w5d2'
 }

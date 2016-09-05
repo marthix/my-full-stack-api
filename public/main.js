@@ -39,16 +39,12 @@ var fetchRequest = function (sortColumn, sortDirection) {
         var td3 = document.createElement('td')
         var td4 = document.createElement('td')
         var td5 = document.createElement('td')
-        var td6 = document.createElement('td')
-        var td7 = document.createElement('td')
 
         var text1 = document.createTextNode(result.id)
         var text2 = document.createTextNode(result.film)
         var text3 = document.createTextNode(result.stars)
         var text4 = document.createTextNode(result.rating)
         var text5 = document.createTextNode(result.votes)
-        var text6 = document.createTextNode(result.created_at)
-        var text7 = document.createTextNode(result.updated_at)
 
         td1.classList.add('id')
         td1.appendChild(text1)
@@ -65,19 +61,11 @@ var fetchRequest = function (sortColumn, sortDirection) {
         td5.classList.add('votes')
         td5.appendChild(text5)
 
-        td6.classList.add('create')
-        td6.appendChild(text6)
-
-        td7.classList.add('update')
-        td7.appendChild(text7)
-
         tr.appendChild(td1)
         tr.appendChild(td2)
         tr.appendChild(td3)
         tr.appendChild(td4)
         tr.appendChild(td5)
-        tr.appendChild(td6)
-        tr.appendChild(td7)
 
         tableBody.appendChild(tr)
       })
