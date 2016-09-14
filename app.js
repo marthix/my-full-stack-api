@@ -3,7 +3,8 @@ var knexConfig = require('./knex-config.js')
 var knex = require('knex')(knexConfig)
 var express = require('express')
 var app = express()
-var port = process.env.PORT || 8000
+// var port = 8000
+var port = process.env.PORT
 
 // ROUTES
 app.get('/api/v1', function (req, res) {
