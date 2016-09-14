@@ -21,7 +21,7 @@ var fetchRequest = function (sortColumn, sortDirection) {
   tableBody.innerHTML = ''
 
   //Fetch the API data
-  fetch('http://localhost:8000/api/v1?sort=' + encodeURIComponent(sortColumn ? sortColumn : '') + '&direction=' + encodeURIComponent(sortDirection ? sortDirection : ''))
+  fetch('/api/v1?sort=' + encodeURIComponent(sortColumn ? sortColumn : '') + '&direction=' + encodeURIComponent(sortDirection ? sortDirection : ''))
 
     //Parse the returned JSON response
     .then(function(response) {
